@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api", "api.csproj", "{C6A3CB6A-008F-477C-B610-92DDF4B1A9A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api", "api.csproj", "{C6A3CB6A-008F-477C-B610-92DDF4B1A9A3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{9547F00A-D3F5-45A8-AE89-46854B5B4688}"
 	ProjectSection(SolutionItems) = preProject
@@ -13,6 +13,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{660F1502-E95C-4F5C-8F75-BAD23901EB57}"
 	ProjectSection(SolutionItems) = preProject
 		RoomPricingService.cs = RoomPricingService.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{B4ED05FD-CAB8-45AB-8944-B6FACCA4D88C}"
+	ProjectSection(SolutionItems) = preProject
+		RoomController1.cs = RoomController1.cs
 	EndProjectSection
 EndProject
 Global

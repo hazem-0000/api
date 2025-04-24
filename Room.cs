@@ -15,7 +15,7 @@ public enum ViewType
 public class Room
 	
 {
-	public int Id {  get; set; }
+	//public int Id {  get; set; }
 	public RoomType Type  { get; set; }
 	public ViewType View { get; set; }
 	public decimal Price
