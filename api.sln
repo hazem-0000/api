@@ -12,6 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{9547F0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{660F1502-E95C-4F5C-8F75-BAD23901EB57}"
 	ProjectSection(SolutionItems) = preProject
+		CompetitorPriceService.cs = CompetitorPriceService.cs
 		RoomPricingService.cs = RoomPricingService.cs
 	EndProjectSection
 EndProject

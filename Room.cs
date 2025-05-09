@@ -9,43 +9,38 @@ public enum RoomType
 public enum ViewType
 {
 	Sea,
-	Forest,
+	Garden,
 	City
 }
+
 public class Room
-	
+
 {
 	//public int Id {  get; set; }
-	public RoomType Type  { get; set; }
+	public RoomType Type { get; set; }
 	public ViewType View { get; set; }
-	public decimal Price
+	public string Season { get; set; }
+	public int OccupancyRate {  get; set; }
+	
+	
+		
+	public decimal BasePrice
 	{
 		get
 		{
-			return GetBasePrice() + GetViewBonus(); 
-
-		}
-	}
-	private Decimal GetBasePrice()
-	{
-		return Type switch
-		{
-			RoomType.Standard => 100,
-			RoomType.Delux => 200,
-			RoomType.Suite => 300
-		};
-	}
-		private Decimal GetViewBonus()
-		{
-			return View switch
+			return Type switch
 			{
-				ViewType.Sea => 30,
-				ViewType.Forest => 20,
-				ViewType.City => 10,
-				_=>0
+				RoomType.Standard => 500,
+				RoomType.Delux => 150,
+				RoomType.Suite => 250
+
 			};
-		}
 	}
+	
+	}
+
+	}
+	
 
 	
 
